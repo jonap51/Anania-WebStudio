@@ -12,15 +12,18 @@ import Container from "./Container.astro";
             class="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start"
           >
             <ul class="list-inside list-disc space-y-8">
-              <li><a href="#" class="transition hover:text-primary">Home</a></li>
-  
-              <li><a href="#" class="transition hover:text-primary">About</a></li>
+              <li><a href="/#" class="transition hover:text-primary">Inicio</a></li>
+              <li><a href="/#servicios" class="transition hover:text-primary">Servicios</a></li>
+              <li><a href="/#solution" class="transition hover:text-primary">Soluciones</a></li>
              
             </ul>
   
             <ul role="list" class="space-y-8">
               <li>
-                <a href="https://wa.me/541123902822" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="https://wa.me/541123902822" 
+                target="_blank"            
+                rel="noopener noreferrer"
+                class="flex items-center space-x-3 transition hover:text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -40,8 +43,8 @@ import Container from "./Container.astro";
             class="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left"
           >
           <ul class="list-none list-disc space-y-8 text-gray-600 dark:text-gray-300 ">
-            <li><a href="#" class="font-medium transition hover:text-primary">Terminos de Uso</a></li>
-            <li><a href="#" class="font-medium transition hover:text-primary">Politica de Privacidad</a></li>
+            <li><a href="/terminos-y-condiciones" class="font-medium transition hover:text-primary">Terminos de Uso</a></li>
+            <li><a href="/privacidad" class="font-medium transition hover:text-primary">Politica de Privacidad</a></li>
     
           </ul>
   
