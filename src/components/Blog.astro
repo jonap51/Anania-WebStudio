@@ -2,9 +2,14 @@
 import Container from "./Container.astro"
 
 const faqs = [
+
+ {
+    question: "¿Qué es el SEO técnico?",
+    answer: "El SEO técnico es el trabajo que se hace por detrás de la web para que Google pueda entenderla, leerla y mostrarla a las personas correctas.\n\nNo se trata solo de “estar en Google”, sino de que tu sitio cargue rápido, funcione perfecto en celulares, no tenga errores y esté bien configurado desde el primer día.\n\nUna web puede verse linda, pero si es lenta o está mal armada, Google no la muestra y los clientes no llegan.\n\nPor eso, el SEO técnico es la base de todo: dejamos tu sitio optimizado para que Google lo encuentre, lo entienda y lo posicione, sin que tengas que preocuparte por nada técnico."
+  },
   {
     question: "¿Puedo modificar mi web después sin depender de nadie?",
-    answer: "¡Exacto! Parte del servicio es enseñarte a gestionar tu sitio. Cambiar productos, precios, textos, fotos... lo hacés vos cuando quieras. Si preferís despreocuparte, también ofrezco planes de mantenimiento donde nos encargamos de todo.! Nuestro objetivo es que seas dueño total de tu negocio. Te entregamos el sitio con un panel autogestionable o te enseñamos a realizar cambios básicos como precios, stock, fotos y textos. No vas a ser 'rehén' de un programador."
+    answer: "Te enseñamos a modificar productos, precios, textos y fotos cuando quieras, sin depender de nadie. Si preferís despreocuparte, también ofrecemos mantenimiento opcional. Nuestro objetivo es que tengas el control total de tu negocio, sin ataduras ni suscripciones forzosas."
   },
   {
     question: "¿Qué pasa si algo se rompe o necesito ayuda después?",
@@ -49,7 +54,7 @@ const faqs = [
               </svg>
             </span>
           </summary>
-          <p class="mt-4 leading-relaxed text-gray-700 dark:text-gray-300 border-t border-gray-100 dark:border-white/5 pt-4">
+          <p class="mt-4 leading-relaxed text-gray-700 dark:text-gray-300 border-t border-gray-100 dark:border-white/5 pt-4 whitespace-pre-line">
             {faq.answer}
           </p>
         </details>
